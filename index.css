@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+
+#alarm{
+    border: 5px solid black;
+    width: 800px;
+    height: 400px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+
+}
+
+#alarm h2{
+    text-decoration: dotted;
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#set-alarm-button{
+    background-color: tomato;
+    color: antiquewhite;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.line{
+    border:1px solid rgb(23, 10, 10);
+    background-color: rgba(218, 18, 18, 0.784);
+}
+
+#alarm-values{
+    margin-top: 20px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+#alarm-values select{
+    margin: 0 10px 0 10px;
+}
+#list{
+    list-style: none;
+}
+#list li{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-around;
+}
+#list li input{
+    background-color: red;
+}
