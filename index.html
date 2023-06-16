@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+  <h1>Alarm App</h1>
+
+<div id="main">
+    <div id="digital">
+      <p id="disp_time">00:00:00</p>
+    </div>
+    <div id="date">
+      <p id="disp_date">00-00-00</p>
+    </div>
+
+    <div id="input-box">
+      <h2>Add Alarm </h2>
+       <form id="form">
+          <select required id="add-hr" class="selects"> </select>
+          <h1>:</h1>
+          <select required id="add-mn" class="selects"> </select>
+          <h1>:</h1>
+          <select required id="add-sc" class="selects"> </select>
+          <select  required id="am-pm">
+            <option>AM</option>
+            <option>PM</option>
+          </select>
+          <button id="add">Add</button>
+       </form>
+    </div>
+    <div id="navbar">
+      <div>
+         <a href="./index.html">
+          <i class="fa fa-home"></i>
+         </a>
+      </div>
+      <div>
+        <a href="./alarms.html">
+          <i class="fa-regular fa-bell"></i>
+         </a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+<script src="scripts.js"></script>
+<!-- <script src="alarms.js"></script> -->
